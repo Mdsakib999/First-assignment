@@ -146,24 +146,24 @@ main{
     margin: 90px 0 60px 0;
 }
 
-.skill-txt{
+.skill-section .skill-txt{
     text-align: center;
 }
-.skill-txt h3{
+.skill-section .skill-txt h3{
     font-size: 45px;
     margin-bottom: 20px;
 }
 
-.skill-txt p{
+.skill-section .skill-txt p{
     color: rgb(136, 133, 133);
 }
 
-.skill-contaner{
+.skill-section .skill-contaner{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.skill{
+.skill-contaner .skill{
     width: 25%;
     margin: 10px;
     padding: 20px;
@@ -172,14 +172,14 @@ main{
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
     border-radius: 5px;
 }
-.skill img{
+.skill-contaner .skill img{
     width: 100px;
 }
-.skill h3{
+.skill-contaner .skill h3{
     margin: 10px 0;
     font-size: 25px;
 }
-.skill p{
+.skill-contaner .skill p{
     color: rgb(136, 133, 133);
 }
 
