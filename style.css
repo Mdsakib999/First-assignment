@@ -13,7 +13,6 @@
     padding: 170px 10px 0px 340px;
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
 }
 
 .home{
@@ -75,13 +74,13 @@ main{
     /* margin-bottom: 30px; */
 }
 
-.mark{
+.about-txt .mark{
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
 
-.mark img{
+ .about-txt .mark img{
     width: 25px;
     margin-right: 10px;
 
@@ -185,3 +184,59 @@ main{
 
 
 /* Footer */
+footer{
+    width: 100%;
+    padding: 100px 150px;
+    border: 3px solid blue;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    gap: 150px;
+}
+
+.future{
+    width: 40%;
+}
+.future h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.future p{
+    color: rgb(225, 220, 220);
+}
+
+.future .footer-img{
+    margin-top: 30px;
+    margin-left: -32px;
+}
+
+.future .footer-img img {
+    margin-left: 30px;
+
+}
+
+.form{
+    width: 30%;
+}
+
+.form h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.form input{
+    height: 50px;
+    width: 70%;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #fff;
+    background-color: black;
+    padding-left:20px;
+    margin-bottom: 30px;
+}
+
+#footer-btn{
+    background-color: rgb(22, 22, 188);
+    color: #fff;
+}
