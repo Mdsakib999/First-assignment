@@ -1,5 +1,46 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
+/* Header section */
+
+.header{
+    width: 100%;
+    height: 100vh;
+
+    padding: 170px 10px 0px 340px;
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.home{
+    width: 30%;
+    margin:auto;
+    padding: 20px;
+    text-align: right;
+    
+}
+
+.home h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.home p{
+    color: aliceblue;
+    margin: 30px 0;
+}
+
+.btn-primary{
+    padding: 15px 20px;
+    background-color: white;
+    color: rgb(33, 127, 243);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
