@@ -226,6 +226,7 @@ footer{
 .form input{
     height: 50px;
     width: 70%;
+    border: 2px solid #fff;
     border-radius: 7px;
     font-size: 15px;
     color: #fff;
