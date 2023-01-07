@@ -44,3 +44,76 @@
     border: none;
     border-radius: 5px;
 }
+
+/* main section */
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+/* About section */
+.about{margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.about img{
+    width: 50%;
+}
+.about-txt{
+    /* border: 2px solid; */
+}
+
+.about-txt h2{
+    margin: 30px 0;
+    font-size: 50px;
+}
+.about-txt p{
+    color: rgb(100, 97, 97);
+    /* margin-bottom: 30px; */
+}
+
+.mark{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mark img{
+    width: 25px;
+    margin-right: 10px;
+
+}
+
+/* My Plan section */
+
+#Plan-txt{
+    text-align: center;
+    margin: 100px 0 50px 0;
+    font-size: 45px;
+}
+
+.my-plan{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.plan-contaner{
+    text-align: center;
+}
+
+.plan-contaner h3{
+    margin: 10px 0;
+    font-size: 30px;
+}
+.plan-contaner p{
+    color: rgb(100, 97, 97);
+    
+}
