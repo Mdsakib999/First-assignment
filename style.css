@@ -64,9 +64,7 @@ main{
 .about img{
     width: 50%;
 }
-.about-txt{
-    /* border: 2px solid; */
-}
+
 
 .about-txt h2{
     margin: 30px 0;
@@ -98,7 +96,6 @@ main{
 }
 
 .my-plan{
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     margin: 20px 0 100px 0;
@@ -142,3 +139,49 @@ main{
     font-family: cursive;
     margin-bottom: 10px;
 }
+
+/* skill section */
+
+.skill-section{
+    margin: 90px 0 60px 0;
+}
+
+.skill-txt{
+    text-align: center;
+}
+.skill-txt h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.skill-txt p{
+    color: rgb(136, 133, 133);
+}
+
+.skill-contaner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.skill{
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.skill img{
+    width: 100px;
+}
+.skill h3{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.skill p{
+    color: rgb(136, 133, 133);
+}
+
+
+/* Footer */
